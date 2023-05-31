@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+    
+  <!-- Spot Style - Default Point Spot Style -->
+
+
+  <style name="IconDefaultPointSpotStyle"
+         url="%FIRSTXML%/spots/pin_2d_hole_white_user_defaultpoint0.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconDefaultPointSpotStyle"
+         onout="onoutIconDefaultPointSpotStyle"
+
+
+         />
+  <action name="onhoverIconDefaultPointSpotStyle">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+  <!-- ************* -->
+  <!-- Panorama Menu -->
+  <!-- ************* -->
+
+<ptplugin name="panoramaMenu" engine="kolorMenu">
+	<settings>
+		<option name="position" value="top" type="string" />
+		<option name="orientation" value="horizontal" type="string" />
+		<option name="sub_orientation" value="vertical" type="string" />
+		<option name="margin_x" value="10" type="int" />
+		<option name="margin_y" value="10" type="int" />
+		<option name="background_color" value="b3b3b3" type="string" />
+		<option name="background_alpha" value="1" type="float" />
+		<option name="item_spacer" value="5" type="int" />
+		<option name="border_radius" value="7" type="int" />
+		<option name="full_size" value="false" type="bool" />
+		<option name="use_out_effect" value="true" type="bool" />
+		<option name="item_out_border_radius" value="7" type="int" />
+		<option name="item_hover_border_radius" value="7" type="int" />
+		<option name="item_out_border_width" value="0" type="int" />
+		<option name="item_hover_border_width" value="0" type="int" />
+		<option name="item_out_bg_color" value="b3b3b3" type="string" />
+		<option name="item_out_bg_alpha" value="1" type="float" />
+		<option name="item_out_font_color" value="ffffff" type="string" />
+		<option name="item_out_font_family" value="Arial" type="string" />
+		<option name="item_out_font_size" value="14" type="int" />
+		<option name="item_out_font_weight" value="normal" type="string" />
+		<option name="item_out_font_style" value="normal" type="string" />
+		<option name="item_out_font_decoration" value="normal" type="string" />
+		<option name="use_hover_effect" value="true" type="bool" />
+		<option name="item_hover_bg_color" value="d7d7d7" type="string" />
+		<option name="item_hover_bg_alpha" value="1" type="float" />
+		<option name="item_hover_font_color" value="ffffff" type="string" />
+		<option name="item_hover_font_family" value="Arial" type="string" />
+		<option name="item_hover_font_size" value="14" type="int" />
+		<option name="item_hover_font_weight" value="normal" type="string" />
+		<option name="item_hover_font_style" value="normal" type="string" />
+		<option name="item_hover_font_decoration" value="normal" type="string" />
+		<option name="padding_main" value="10" type="int" />
+		<option name="padding_sub" value="10" type="int" />
+		<option name="text_align" value="right" type="string" />
+		<option name="item_thumb_max_width" value="200" type="int" />
+		<option name="item_thumb_max_height" value="100" type="int" />
+		
+		<option name="zorder" value="1" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+				<group name="group_1"
+						titleID="panogroup39_title"
+						thumbnail=""
+						subMenu="true"
+						cssClass="panogroup39"> 
+
+				
+				
+						<item name="group_1_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano17')"
+								titleID="pano17_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_17/thumbnail.jpg"
+							cssClass="pano17">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_1_item_2"
+							action="invokeKrFunction('mainloadscene', 'pano18')"
+								titleID="pano18_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_18/thumbnail.jpg"
+							cssClass="pano18">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_1_item_3"
+							action="invokeKrFunction('mainloadscene', 'pano19')"
+								titleID="pano19_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_19/thumbnail.jpg"
+							cssClass="pano19">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_1_item_4"
+							action="invokeKrFunction('mainloadscene', 'pano10')"
+								titleID="pano10_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_10/thumbnail.jpg"
+							cssClass="pano10">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_1_item_5"
+							action="invokeKrFunction('mainloadscene', 'pano11')"
+								titleID="pano11_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_11/thumbnail.jpg"
+							cssClass="pano11">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_1_item_6"
+							action="invokeKrFunction('mainloadscene', 'pano12')"
+								titleID="pano12_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_12/thumbnail.jpg"
+							cssClass="pano12">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_1_item_7"
+							action="invokeKrFunction('mainloadscene', 'pano13')"
+								titleID="pano13_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_13/thumbnail.jpg"
+							cssClass="pano13">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_1_item_8"
+							action="invokeKrFunction('mainloadscene', 'pano14')"
+								titleID="pano14_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_14/thumbnail.jpg"
+							cssClass="pano14">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_1_item_9"
+							action="invokeKrFunction('mainloadscene', 'pano15')"
+								titleID="pano15_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_15/thumbnail.jpg"
+							cssClass="pano15">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_1_item_10"
+							action="invokeKrFunction('mainloadscene', 'pano16')"
+								titleID="pano16_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_16/thumbnail.jpg"
+							cssClass="pano16">
+						
+								<option name="item_out_bg_color" value="a0a0a0" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="c0c0c0" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+					
+						<option name="background_color" value="a0a0a0" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
+				<group name="group_2"
+						titleID="panogroup49_title"
+						thumbnail=""
+						subMenu="true"
+						cssClass="panogroup49"> 
+
+				
+				
+						<item name="group_2_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano20')"
+								titleID="pano20_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_20/thumbnail.jpg"
+							cssClass="pano20">
+						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_2"
+							action="invokeKrFunction('mainloadscene', 'pano21')"
+								titleID="pano21_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_21/thumbnail.jpg"
+							cssClass="pano21">
+						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_3"
+							action="invokeKrFunction('mainloadscene', 'pano22')"
+								titleID="pano22_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_22/thumbnail.jpg"
+							cssClass="pano22">
+						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_4"
+							action="invokeKrFunction('mainloadscene', 'pano23')"
+								titleID="pano23_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_23/thumbnail.jpg"
+							cssClass="pano23">
+						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_5"
+							action="invokeKrFunction('mainloadscene', 'pano24')"
+								titleID="pano24_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_24/thumbnail.jpg"
+							cssClass="pano24">
+						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_6"
+							action="invokeKrFunction('mainloadscene', 'pano25')"
+								titleID="pano25_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_25/thumbnail.jpg"
+							cssClass="pano25">
+						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_7"
+							action="invokeKrFunction('mainloadscene', 'pano26')"
+								titleID="pano26_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_26/thumbnail.jpg"
+							cssClass="pano26">
+						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_8"
+							action="invokeKrFunction('mainloadscene', 'pano27')"
+								titleID="pano27_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_27/thumbnail.jpg"
+							cssClass="pano27">
+						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_2_item_9"
+							action="invokeKrFunction('mainloadscene', 'pano28')"
+								titleID="pano28_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_28/thumbnail.jpg"
+							cssClass="pano28">
+						
+								<option name="item_out_bg_color" value="787878" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="909090" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+					
+						<option name="background_color" value="787878" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
+				<group name="group_3"
+						titleID="panogroup58_title"
+						thumbnail=""
+						subMenu="true"
+						cssClass="panogroup58"> 
+
+				
+				
+						<item name="group_3_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano29')"
+								titleID="pano29_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_29/thumbnail.jpg"
+							cssClass="pano29">
+						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_2"
+							action="invokeKrFunction('mainloadscene', 'pano30')"
+								titleID="pano30_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_30/thumbnail.jpg"
+							cssClass="pano30">
+						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_3"
+							action="invokeKrFunction('mainloadscene', 'pano31')"
+								titleID="pano31_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_31/thumbnail.jpg"
+							cssClass="pano31">
+						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_4"
+							action="invokeKrFunction('mainloadscene', 'pano33')"
+								titleID="pano33_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_33/thumbnail.jpg"
+							cssClass="pano33">
+						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_5"
+							action="invokeKrFunction('mainloadscene', 'pano34')"
+								titleID="pano34_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_34/thumbnail.jpg"
+							cssClass="pano34">
+						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_6"
+							action="invokeKrFunction('mainloadscene', 'pano35')"
+								titleID="pano35_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_35/thumbnail.jpg"
+							cssClass="pano35">
+						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_7"
+							action="invokeKrFunction('mainloadscene', 'pano36')"
+								titleID="pano36_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_36/thumbnail.jpg"
+							cssClass="pano36">
+						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_8"
+							action="invokeKrFunction('mainloadscene', 'pano37')"
+								titleID="pano37_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_37/thumbnail.jpg"
+							cssClass="pano37">
+						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+						<item name="group_3_item_9"
+							action="invokeKrFunction('mainloadscene', 'pano38')"
+								titleID="pano38_title"
+								thumbnail="Тур Ленинградский кварталdata/pano_38/thumbnail.jpg"
+							cssClass="pano38">
+						
+								<option name="item_out_bg_color" value="646464" type="string" />
+								<option name="item_out_bg_alpha" value="1" type="float" />
+								<option name="item_hover_bg_color" value="787878" type="string" />
+								<option name="item_hover_bg_alpha" value="1" type="float" />
+						
+						</item>
+					
+						<option name="background_color" value="646464" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorMenuJsReady_panoramaMenu">
+	set(ptplugin[panoramaMenu].jsready, true);
+</action>
+
+<action name="showKolorMenu_panoramaMenu">
+	
+	ifnot(ptplugin[panoramaMenu].isOpen,
+		stopdelayedcall(delay_panoramaMenu);
+		set(ptplugin[panoramaMenu].isOpen, true);
+		set(ptplugin[panoramaMenu].displayed, true);
+		js(openKolorMenu(panoramaMenu));
+	,
+		if(ptplugin[panoramaMenu].jsready,
+			stopdelayedcall(delay_panoramaMenu);
+			set(ptplugin[panoramaMenu].displayed, true);
+			js(invokePluginFunction(panoramaMenu, showKolorMenu));
+		,
+			delayedcall(delay_panoramaMenu, 0.1, showKolorMenu_panoramaMenu(););
+		);
+	);
+</action>
+
+<action name="hideKolorMenu_panoramaMenu">
+	if(ptplugin[panoramaMenu].jsready,
+		stopdelayedcall(delay_panoramaMenu);
+		set(ptplugin[panoramaMenu].displayed, false);
+		js(invokePluginFunction(panoramaMenu, hideKolorMenu));
+	,
+		delayedcall(delay_panoramaMenu, 0.1, hideKolorMenu_panoramaMenu(););
+	);
+</action>
+
+
+<action name="changeLanguage_panoramaMenu">
+	if(ptplugin[panoramaMenu].jsready,
+		stopdelayedcall(delay_panoramaMenu);
+		js(invokePluginFunction(panoramaMenu, changeLanguage));
+	,
+		delayedcall(delay_panoramaMenu, 0.1, changeLanguage_panoramaMenu(););
+	);
+</action>
+
+
+<events name="kolorMenuEvents_panoramaMenu" 
+	keep="true"
+	
+	
+	onTourStart="showKolorMenu_panoramaMenu();"
+	changetourlanguage="changeLanguage_panoramaMenu"
+/>
+
+<!-- ********** -->
+<!-- Circles Control Bar -->
+<!-- id : CirclesControlBar -->
+<!-- ********** -->
+
+  <krpano CirclesControlBarbarbuilt="false" CirclesControlBarbackgroundwidthwhenclosed="0" CirclesControlBarbackgroundwidthwhenopened="0" CirclesControlBarIsOpened="false" />
+  <events name="CirclesControlBarevents" 
+    onxmlcomplete="CirclesControlBarbuildMenuBar();" 
+
+
+    keep="true" />
+
+
+
+  <action name="CirclesControlBarbuildMenuBar">
+    ifnot (CirclesControlBarbarbuilt, CirclesControlBarbuildMenu(); set(CirclesControlBarbarbuilt, true););
+  </action>
+
+  <style name="CirclesControlBar_btn_style"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="40" height="40"
+         crop="0|0|60|60"
+         onovercrop="0|60|60|60"
+         ondowncrop="0|120|60|60"
+         />
+  <style name="CirclesControlBar_btn_style_off"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="40" height="40"
+         />
+
+  <layer name="CirclesControlBar_menu_bg"
+         keep="true"
+         type="container"
+         zorder="2"
+         width="40"
+         height="40"
+         align="bottom"
+         x="0" y="10"
+         maskchildren="true"
+         rotate="0"
+         visible="false"
+         >
+
+
+    <layer name="CirclesControlBarbtn_ctrlmode_move_to"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_move_to.png"
+            style="CirclesControlBar_btn_style"
+            onclick="setControlModeMoveTo();
+"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="CirclesControlBarbtn_ctrlmode_drag_to"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_drag_to.png"
+            style="CirclesControlBar_btn_style"
+            onclick="setControlModeDragTo();
+"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="CirclesControlBarbtn_in"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_zoom_in.png"
+            ondown="viewControlZoomIn(false);"
+            onup="viewControlZoomStop();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="CirclesControlBarbtn_out"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_zoom_out.png"
+            ondown="viewControlZoomOut(false);
+"
+            onup="viewControlZoomStop();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="CirclesControlBarbtn_home"
+           url="%FIRSTXML%/graphics/circlescontrolbar/btn_home.png"
+           style="CirclesControlBar_btn_style"
+           onclick="CirclesControlBarbtn_home_action();"
+           visible="false"
+           />
+
+    <layer name="CirclesControlBarbtn_left"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_move_left.png"
+            ondown="viewControlMoveLeft(false);
+"
+            onup="viewControlMoveHoriStop();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="CirclesControlBarbtn_right"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_move_right.png"
+            ondown="viewControlMoveRight(false);
+"
+            onup="viewControlMoveHoriStop();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="CirclesControlBarbtn_up"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_move_up.png"
+            ondown="viewControlMoveUp(false);
+"
+            onup="viewControlMoveVertStop();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="CirclesControlBarbtn_down"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_move_down.png"
+            ondown="viewControlMoveDown(false);
+"
+            onup="viewControlMoveVertStop();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+
+
+
+    <layer name="CirclesControlBarbtn_prev_pano"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_previous_scene.png"
+            onclick="loadPreviousScene();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            />
+    <layer name="CirclesControlBarbtn_next_pano"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_next_scene.png"
+            onclick="loadNextScene();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            />
+
+
+
+    <layer name="CirclesControlBarbtn_openfs"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_enter_fs.png"
+            onclick="enterFullscreen();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            />
+    <layer name="CirclesControlBarbtn_closefs"
+            url="%FIRSTXML%/graphics/circlescontrolbar/btn_close_fs.png"
+            onclick="exitFullscreen();
+"
+            style="CirclesControlBar_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            />
+
+
+
+
+
+    <layer name="CirclesControlBarbtn_hidecontrols"
+           url="%FIRSTXML%/graphics/circlescontrolbar/btn_hide_controls.png"
+           style="CirclesControlBar_btn_style"
+           onclick="CirclesControlBarhideMenuControls();hideTourControls();
+"
+           visible="false"
+           />
+    <layer name="CirclesControlBarbtn_showcontrols"
+           url="%FIRSTXML%/graphics/circlescontrolbar/btn_show_controls.png"
+           style="CirclesControlBar_btn_style"
+           onclick="CirclesControlBarshowMenuControls();showTourControls();
+"
+           visible="false"
+           />
+ </layer>
+
+    <action name="CirclesControlBarbtn_home_action">
+      hideTooltip();lookto(get(panoview.h),get(panoview.v),get(panoview.fov),smooth(100,20,50));
+    </action>
+
+
+
+
+	<events name="CirclesControlBarcontrolmodechangedevent" 
+		oncontrolmodechanged="CirclesControlBarupdateControlModeButtons();" 
+		keep="true" />
+	<action name="CirclesControlBarHideControlModeButtons">
+		set(layer[CirclesControlBarbtn_ctrlmode_move_to].visible, false);
+		set(layer[CirclesControlBarbtn_ctrlmode_drag_to].visible, false);
+	</action>
+	<action name="CirclesControlBarShowControlModeButtons">
+		if (tour_controlmodemousetype == "moveto",
+			set(layer[CirclesControlBarbtn_ctrlmode_drag_to].visible, true);
+			set(layer[CirclesControlBarbtn_ctrlmode_move_to].visible, false);
+		,
+			set(layer[CirclesControlBarbtn_ctrlmode_move_to].visible, true);
+			set(layer[CirclesControlBarbtn_ctrlmode_drag_to].visible, false);
+		);
+	</action>
+	<action name="CirclesControlBarupdateControlModeButtons">
+	if (device.desktop,
+		if (CirclesControlBarIsOpened,
+			CirclesControlBarShowControlModeButtons();
+		,
+			CirclesControlBarHideControlModeButtons();
+		);
+	,
+		CirclesControlBarHideControlModeButtons();
+	);
+	</action>
+
+
+  <action name="CirclesControlBarhideMenuControls">
+    set(CirclesControlBarIsOpened, false);
+    set(layer[CirclesControlBarbtn_hidecontrols].visible, false);
+    set(layer[CirclesControlBarbtn_showcontrols].visible, true);
+if (scene.count GT 1,
+	set(layer[CirclesControlBarbtn_next_pano].visible, false);
+	set(layer[CirclesControlBarbtn_prev_pano].visible, false);
+);
+
+
+set(layer[CirclesControlBarbtn_home].visible, false);
+if (device.desktop,
+	set(layer[CirclesControlBarbtn_in].visible, false);
+	set(layer[CirclesControlBarbtn_out].visible, false);
+);
+if (device.desktop,
+	set(layer[CirclesControlBarbtn_up].visible, false);
+	set(layer[CirclesControlBarbtn_down].visible, false);
+);
+if (device.desktop,
+	set(layer[CirclesControlBarbtn_left].visible, false);
+	set(layer[CirclesControlBarbtn_right].visible, false);
+);
+	CirclesControlBarupdateFullscreenButtons();
+
+
+
+
+	CirclesControlBarupdateControlModeButtons();
+
+
+
+
+	set(layer[CirclesControlBar_menu_bg].width, get(CirclesControlBarbackgroundwidthwhenclosed));
+
+	set(layer[CirclesControlBar_menu_bg].visible, true);
+  </action>
+  <action name="CirclesControlBarshowMenuControls">
+    set(CirclesControlBarIsOpened, true);
+    set(layer[CirclesControlBarbtn_hidecontrols].visible, true);
+    set(layer[CirclesControlBarbtn_showcontrols].visible, false);
+	set(layer[CirclesControlBar_menu_bg].visible, true);
+if (scene.count GT 1,
+	set(layer[CirclesControlBarbtn_next_pano].visible, true);
+	set(layer[CirclesControlBarbtn_prev_pano].visible, true);
+);
+
+
+set(layer[CirclesControlBarbtn_home].visible, true);
+if (device.desktop,
+	set(layer[CirclesControlBarbtn_in].visible, true);
+	set(layer[CirclesControlBarbtn_out].visible, true);
+);
+if (device.desktop,
+	set(layer[CirclesControlBarbtn_up].visible, true);
+	set(layer[CirclesControlBarbtn_down].visible, true);
+);
+if (device.desktop,
+	set(layer[CirclesControlBarbtn_left].visible, true);
+	set(layer[CirclesControlBarbtn_right].visible, true);
+);
+	CirclesControlBarupdateFullscreenButtons();
+
+
+
+
+	CirclesControlBarupdateControlModeButtons();
+
+
+
+    set(layer[CirclesControlBar_menu_bg].width, get(CirclesControlBarbackgroundwidthwhenopened));
+  </action>
+
+
+
+
+  <events name="CirclesControlBarmenufullscreenchangeevent"
+          onenterfullscreen="CirclesControlBarupdateFullscreenButtons();"
+          onexitfullscreen="CirclesControlBarupdateFullscreenButtons();"
+          keep="true"/>
+	<action name="CirclesControlBarHideFullscreenButtons">
+		set(layer[CirclesControlBarbtn_openfs].visible , false);
+		set(layer[CirclesControlBarbtn_closefs].visible, false);
+	</action>
+	<action name="CirclesControlBarShowFullscreenButtons">
+		if (device.fullscreensupport,
+			if(tour_fullscreen,
+				set(layer[CirclesControlBarbtn_openfs].visible , false);
+				set(layer[CirclesControlBarbtn_closefs].visible, true);
+			,
+				set(layer[CirclesControlBarbtn_openfs].visible ,true);
+				set(layer[CirclesControlBarbtn_closefs].visible,false);
+			);
+		,
+			CirclesControlBarHideFullscreenButtons();
+		);
+	</action>
+	<action name="CirclesControlBarupdateFullscreenButtons">
+		if (CirclesControlBarIsOpened,
+			CirclesControlBarShowFullscreenButtons();
+		,
+			CirclesControlBarHideFullscreenButtons();
+		);
+	</action>
+
+
+
+  <action name="CirclesControlBarbuildMenu">
+    
+    set(CirclesControlBarbutton_pos, 0);
+
+	set(CirclesControlBarbackgroundwidthwhenclosed, 40);
+    set(layer[CirclesControlBarbtn_hidecontrols].x, get(CirclesControlBarbutton_pos));
+    set(layer[CirclesControlBarbtn_showcontrols].x, get(CirclesControlBarbutton_pos));
+    inc(CirclesControlBarbutton_pos, 45);
+
+
+
+      if (device.fullscreensupport,
+        set(layer[CirclesControlBarbtn_openfs].x , get(CirclesControlBarbutton_pos));
+        set(layer[CirclesControlBarbtn_closefs].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+      );
+
+
+
+
+
+    if (device.desktop,
+      set(layer[CirclesControlBarbtn_ctrlmode_drag_to].x, get(CirclesControlBarbutton_pos));
+      set(layer[CirclesControlBarbtn_ctrlmode_move_to].x, get(CirclesControlBarbutton_pos));
+      inc(CirclesControlBarbutton_pos, 45);
+    );
+
+
+
+
+
+        set(layer[CirclesControlBarbtn_home].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+
+      if (device.desktop,
+        set(layer[CirclesControlBarbtn_right].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+        set(layer[CirclesControlBarbtn_left].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+      );
+
+      if (device.desktop,
+        set(layer[CirclesControlBarbtn_down].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+        set(layer[CirclesControlBarbtn_up].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+      );
+
+      if (device.desktop,
+        set(layer[CirclesControlBarbtn_out].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+        set(layer[CirclesControlBarbtn_in].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+      );
+
+    if (scene.count GT 1,
+        set(layer[CirclesControlBarbtn_next_pano].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+        set(layer[CirclesControlBarbtn_prev_pano].x, get(CirclesControlBarbutton_pos));
+        inc(CirclesControlBarbutton_pos, 45);
+      );
+
+
+
+      dec(CirclesControlBarbutton_pos, 5);
+
+      set(CirclesControlBarbackgroundwidthwhenopened, get(CirclesControlBarbutton_pos));
+
+
+    
+      set(layer[CirclesControlBar_menu_bg].width, get(CirclesControlBarbackgroundwidthwhenopened));
+	
+	
+	
+    </action>
+
+	<events name="CirclesControlBarStartTourEvents" onTourStart="CirclesControlBarCallOnStartTour();" keep="true" />
+	
+	<action name="CirclesControlBarCallOnStartTour">
+		
+		CirclesControlBarshowMenuControls();
+	</action>
+
+
+
+<!-- ********** -->
+<!-- Logo ДСК -->
+<!-- id : logo -->
+<!-- ********** -->
+
+
+  <layer align="bottomright"
+         x="30"
+         y="30"
+         zorder="3"
+         name="logo"
+         keep="true"
+         visible="false"
+         capture="false"
+
+			tooltip="logotooltipText"
+			onhover="showTooltip('plugin');"
+			onout="hideTooltip();"
+         url="%FIRSTXML%/graphics/logo/_108910821083108610751086109010801087..jpg" 
+         onclick="
+getmessage(urltoopen,logowebsiteurl);openurl(get(urltoopen),_blank);
+"
+
+
+         />
+
+  <events name="logoevents" 
+    onTourStart="showlogo();"
+    keep="true" />
+
+  <action name="hidelogo">
+    set(layer[logo].visible, false);
+  </action>
+  <action name="showlogo">
+      set(layer[logo].visible, true);
+  </action>
+
+
+
+
+
+<!-- ********** -->
+<!-- Logo1 TWO TOW -->
+<!-- id : logo1 -->
+<!-- ********** -->
+
+
+  <layer align="bottomright"
+         x="300"
+         y="32"
+         zorder="4"
+         name="logo1"
+         keep="true"
+         visible="false"
+         capture="false"
+
+			tooltip="logo1tooltipText"
+			onhover="showTooltip('plugin');"
+			onout="hideTooltip();"
+         url="%FIRSTXML%/graphics/logo1/_1086107510861pdf.png" 
+         handcursor="false"
+
+
+         />
+
+  <events name="logo1events" 
+    onTourStart="showlogo1();"
+    keep="true" />
+
+  <action name="hidelogo1">
+    set(layer[logo1].visible, false);
+  </action>
+  <action name="showlogo1">
+      set(layer[logo1].visible, true);
+  </action>
+
+
+
+
+
+<action name="viewControlMoveUp">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(isfullvertical == false AND calc(view.vlookat-%2) LT view.vlookatmin,
+				moveto(get(view.hlookat), get(view.vlookatmin));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat-%2));
+			);
+		,
+			set(vlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveDown">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(sceneisfull360 == false AND calc(view.vlookat+%2) GT view.vlookatmax,
+				moveto(get(view.hlookat), get(view.vlookatmax));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat+%2));
+			);
+		,
+			set(vlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveLeft">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat-%2) LT view.hlookatmin,
+				moveto(get(view.hlookatmin), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat-%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+		);
+	,
+		set(hlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveRight">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat+%2) GT view.hlookatmax,
+				moveto(get(view.hlookatmax), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat+%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+			
+		);
+	,
+		set(hlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveHoriStop">
+	set(hlookat_moveforce, 0);
+</action>
+<action name="viewControlMoveVertStop">
+	set(vlookat_moveforce, 0);
+</action>
+
+<action name="viewControlZoomIn">
+	if(%1,
+		if(%2,
+			if(%2 LT view.fovmin,
+				zoomto(get(view.fovmin));
+			,
+				if(%2 LT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, -1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, -1);
+	);
+</action>
+<action name="viewControlZoomOut">
+	if(%1,
+		if(%2,
+			if(%2 GT view.fovmax,
+				zoomto(get(view.fovmax));
+			,
+				if(%2 GT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, +1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, +1);
+	);
+</action>
+<action name="viewControlZoomStop">
+	set(fov_moveforce, 0);
+</action>
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+</krpano>
